@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assessoria Empresarial e Jurídica</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="logo.png" alt="Logotipo Moderno e Charmoso">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Página Inicial</a></li>
+                    <li><a href="#about">Quem Somos</a></li>
+                    <li><a href="#services">Serviços</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="container">
+                <h1>Assessoria Empresarial e Jurídica</h1>
+                <p>Soluções modernas e personalizadas para sua empresa e questões legais.</p>
+                <a href="#services" class="btn">Conheça nossos serviços</a>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="container">
+                <h2>Quem Somos</h2>
+                <p>Somos uma equipe de especialistas dedicados a oferecer assessoria empresarial e jurídica de alto padrão. Nossa missão é simplificar processos e garantir resultados eficazes para nossos clientes.</p>
+            </div>
+        </section>
+
+        <section id="services" class="services">
+            <div class="container">
+                <h2>Serviços</h2>
+                <ul>
+                    <li>Consultoria Empresarial</li>
+                    <li>Planejamento Estratégico</li>
+                    <li>Assessoria Jurídica</li>
+                    <li>Gestão de Riscos e Compliance</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2>Contato</h2>
+                <form action="submit_form.php" method="POST">
+                    <label for="name">Nome:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="message">Mensagem:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+
+                    <button type="submit">Enviar</button>
+                </form>
+                <div class="socials">
+                    <p>Siga-nos:</p>
+                    <a href="#" class="social-icon">Facebook</a>
+                    <a href="#" class="social-icon">LinkedIn</a>
+                    <a href="#" class="social-icon">Instagram</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Assessoria Empresarial e Jurídica. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
